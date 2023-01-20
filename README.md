@@ -20,7 +20,7 @@ pip3 install openai pandas gspread oauth2client
 
 5. Run the script by executing the following command in your terminal:
 ```
-python openai_query_generator.py
+python3 sqlAI.py
 ```
 
 6. The script will ask if you would like to use a Google Sheet or a local file as your data source.
