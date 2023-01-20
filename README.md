@@ -8,14 +8,20 @@ This code allows you to use the OpenAI API to generate SQL queries based on a us
 git clone https://github.com/devinpicciolini/sqlAI.git
 
 2. Install the required dependencies:
+```
 pip install -r requirements.txt
+pip3 install openai pandas gspread oauth2client
+```
 
-3. Replace the openai.api_key value in the code with your OpenAI API key.
 
-4. Create a credentials.json file with your Google Sheets API credentials.
+3. Replace the openai.api_key value in the code with your OpenAI API key. (https://beta.openai.com/account/api-keys)
+
+4. Create a credentials.json file with your Google Sheets API credentials. (https://www.youtube.com/watch?v=vt_PtZ6KYIE)
 
 5. Run the script by executing the following command in your terminal:
+```
 python openai_query_generator.py
+```
 
 6. The script will ask if you would like to use a Google Sheet or a local file as your data source.
 
@@ -54,10 +60,4 @@ python openai_query_generator.py
 
 ### License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-### Acknowledgments
-
-Hat tip to anyone who's code was used for:
-- Inspiration
-- etc
+This project is licensed under the MIT License
