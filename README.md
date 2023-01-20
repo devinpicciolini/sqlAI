@@ -5,7 +5,7 @@ This code allows you to use the OpenAI API to generate SQL queries based on a us
 ### Getting Started
 
 1. Clone the repository:
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git clone https://github.com/devinpicciolini/sqlAI.git
 
 2. Install the required dependencies:
 pip install -r requirements.txt
