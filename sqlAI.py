@@ -5,7 +5,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
 # Set up OpenAI API key
-openai.api_key = "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"
+openai.api_key = "YOU-API-KEY"
 
 def generate_query(prompt, table_structure):
     # Use the user's prompt and table structure to generate a query
